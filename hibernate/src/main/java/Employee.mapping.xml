@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+	<class name="com.scoopen.hibernate.Employee" table="Employee_Details">
+		<id name="Eid" column="e_Id" type="int" />
+		<property name="Name" column="e_Name" type="String" />
+		<property name="City" column="e_City" type="String" />
+		<property name="Salary" column="e_Salary" type="Long" />
+	</class>
+
+</hibernate-mapping>
